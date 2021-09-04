@@ -7,8 +7,8 @@ Para criar um container nginx de serviço
 
 Depois de Baixar a imagem 
 
-2) docker run --name "servirdor_web" -d -p 9092:80 -e NGINX_ENTRYPOINT_QUIET_LOGS=1 -v "C:\aplicacao:/usr/share/nginx/html" nginx:1.21.1-alpine
+2)   docker run --name "servirdor_web" -d -p 9092:80 -e NGINX_ENTRYPOINT_QUIET_LOGS=1 -v "C:\aplicacao:/usr/share/nginx/html" nginx:1.21.1-alpine
 
 OBS: o caminho C:\Aplicacao é o caminho da minha maquina mude para onde esta a pasta na sua maquina
 
-3) Abra o novegador e colocar localhost:9092 que vai abrir tudo que esta dentro do conteiner.
+3)    Abra o novegador e colocar localhost:9092 que vai abrir tudo que esta dentro do conteiner.
