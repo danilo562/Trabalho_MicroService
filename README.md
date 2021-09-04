@@ -2,6 +2,7 @@
 Para criar o pod no docker
 
 Para criar um container nginx de serviço
+
 1-)   docker run -d -e NGINX_ENTRYPOINT_QUIET_LOGS=1 nginx:1.21.1-alpine
 
 Depois de Baixar a imagem 
