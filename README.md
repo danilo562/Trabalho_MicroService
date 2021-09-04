@@ -15,7 +15,3 @@ OBS: o caminho C:\Aplicacao é o caminho da minha maquina mude para onde esta a 
 
 se quiser ver o pod criar usar o comando DOCKER PS
 
-PS C:\Users\Danilo> docker ps
-CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                   NAMES
-cb2303d5a8e1   nginx:1.21.1-alpine   "/docker-entrypoint.…"   43 seconds ago   Up 45 seconds   0.0.0.0:9092->80/tcp, :::9092->80/tcp   servirdor_web
-PS C:\Users\Danilo>
